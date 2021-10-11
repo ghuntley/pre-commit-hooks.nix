@@ -28,7 +28,7 @@
 }:
 
 {
-  inherit hlint shellcheck ormolu hindent cabal-fmt nixpkgs-fmt nixfmt nix-linter rustfmt clippy cargo html-tidy clang-tools;
+  inherit hadolint hlint shellcheck ormolu hindent cabal-fmt nixpkgs-fmt nixfmt nix-linter rustfmt clippy cargo html-tidy clang-tools;
   inherit (elmPackages) elm-format elm-review elm-test;
   inherit (haskellPackages) stylish-haskell brittany hpack fourmolu;
   inherit (python39Packages) yamllint ansible-lint;
