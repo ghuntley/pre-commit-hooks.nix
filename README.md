@@ -131,6 +131,10 @@ eval "$shellHook"
 
 - [hunspell](https://github.com/hunspell/hunspell)
 
+## Docker
+
+- [hadolint](https://github.com/hadolint/hadolint)
+
 ## Other Formatters
 
 - [prettier](https://prettier.io)
