@@ -76,6 +76,14 @@ in
           entry = "${tools.brittany}/bin/brittany --write-mode=inplace";
           files = "\\.l?hs$";
         };
+      hadolint =
+        {
+          name = "hadolint";
+          description =
+            "Lint your Dockerfile and validate inline bash.";
+          entry = "${tools.hadolint}/bin/hadolint";
+          types = [ "file" "dockerfile" ];
+        };
       hlint =
         {
           name = "hlint";
