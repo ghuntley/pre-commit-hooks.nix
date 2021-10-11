@@ -1,4 +1,5 @@
 { ansible-lint
+, hadolint
 , haskellPackages
 , hlint
 , shellcheck
